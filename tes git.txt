@@ -1,9 +1,10 @@
 HALO
-git add --all
-git branch
-git branch febri
+git add --all ( add semua file)
+git branch (list branch)
+git branch febri (membuat branch)
+git checkout HRD ( Memindahkan branch aktif)
 git commit -m "push pertama belajar"
-git push
+git push 
 git pull
 
 SELECT sum(id_mahasiswa) as total_mhs from mahasiswa
