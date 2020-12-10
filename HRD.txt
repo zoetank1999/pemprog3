@@ -1,0 +1,12 @@
+HALO
+git add --all
+git branch
+git branch febri
+git commit -m "push pertama belajar"
+git push
+git pull
+
+SELECT sum(id_mahasiswa) as total_mhs from mahasiswa
+SELECT count(id_mahasiswa) as all_mhs from mahasiswa
+SELECT count(id_mahasiswa) as all_wanita from mahasiswa where jenis_kelamin='wanita'
+SELECT count(id_mahasiswa) as all_wanita,(select count(id_mahasiswa) from mahasiswa where jenis_kelamin='pria') as all_pria from mahasiswa where jenis_kelamin='wanita'
